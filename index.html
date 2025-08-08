@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div id="profilepart">
+          <img src="images/profile_avatar-removebg-preview.png" alt="profile" />
+          <div class="child-box"></div>
+        </div>
+        <div id="nav">
+          <a href="index.html">Home</a>
+          <a href="index.html">About</a>
+          <a href="index.html">products</a>
+          <a href="index.html">Contact us</a>
+        </div>
+      </header>
+      <main>
+        <div id="formsbox">
+          <form>
+            <label for="name">
+              Name
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name please"
+                required
+                maxlength="15"
+                minlength="3"
+              />
+            </label>
+            <br />
+            <label for="Surname"
+              >Surname
+              <input
+                type="text"
+                name="Surname"
+                id="Surname"
+                placeholder="Surname please"
+                required
+                minlength="3"
+                maxlength="15"
+              />
+            </label>
+            <br />
+            <label for="email"
+              >Email
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email please"
+              />
+            </label>
+            <br />
+            <label for="tele">
+              Phone number
+              <input
+                type="tel"
+                name="phonenumber"
+                id="tele"
+                placeholder="Number please"
+              />
+            </label>
+            <br />
+            <label for="country">
+              Select country
+              <select id="country">
+                <option value="1">United States</option>
+                <option value="2">Azerbaijan</option>
+                <option value="3">Germany</option>
+                <option value="4">United Kingdom</option>
+                <option value="5">Italy</option>
+                <option value="6">China</option>
+                <option value="7">Japan</option>
+                <option value="8">Spain</option>
+                <option value="9">Switzerland</option>
+                <option value="10">Canada</option>
+              </select>
+            </label>
+            <br />
+            <button type="submit">Register</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

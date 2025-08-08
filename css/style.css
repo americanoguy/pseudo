@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: poppinsregular;
+    src:url(../fonts/Poppins-Regular.ttf);
+}
+body{
+    background-color:rgb(243, 192, 98);
+}
+#container{
+}
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:green;
+    margin-right: 20px;
+}
+header img{
+    width: 100px;
+}
+#profilepart{
+    width: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#profilepart:hover .child-box{
+    background-color: limegreen;
+    transition: all 0.3s;
+}
+.child-box{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+form{
+    background-color: lime;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding:10px 55px;
+    gap: 30px;
+}
+#formsbox{
+    background-color: rgb(82, 250, 82);
+    width:400px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    margin: 40px auto;
+}
+input,select,button{
+    display: block;
+    border: none;
+    border-radius: 15px;
+    width: 240px;
+    margin-top: 5px;
+    padding: 5px ;
+    height:50px;
+}
+button{
+    background-color: green;
+    color: yellow;
+}
+label{
+    color: white;
+}
+option {
+   font-family: poppinsregular;
+    width: 30px;
+}
