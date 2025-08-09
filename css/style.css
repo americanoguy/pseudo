@@ -12,8 +12,6 @@
 body{
     background-color:rgb(243, 192, 98);
 }
-#container{
-}
 header{
     background-color: aqua;
     display: flex;
@@ -23,7 +21,16 @@ header{
 header a{
     font-family: Arial, Helvetica, sans-serif;
     color:green;
-    margin-right: 20px;
+    background-color: sandybrown;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+ .links a:hover{
+    color: purple;
+    font-size: 25px;
+    background-color:yellow;
+    transition: all 0.5s;
 }
 header img{
     width: 100px;
@@ -84,5 +91,34 @@ label{
 }
 option {
    font-family: poppinsregular;
-    width: 30px;
+    width:30px;
+}
+#footerlinks{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+#instagram img{
+    width: 80px;
+}
+#instagram :hover{
+    width: 90px;
+    transition: all 0.5s;
+}
+#whatsapp img{
+    width: 80px;
+    
+}
+#whatsapp :hover{
+    width: 90px;
+    transition: all 0.5s;
+}
+#facebook img{
+    width: 80px;
+    margin-right: 10px;
+}
+#facebook :hover{
+    width: 90px;
+   transition: all 0.5s;
 }
